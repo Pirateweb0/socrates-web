@@ -3,7 +3,7 @@ import ig from '../assets/ig.png'
 import inIcon from '../assets/in.png'
 export function Header(){
     return (
-        <div className="w-full bg-[#61677A] flex items-center md:fixed justify-center gap-5 p-3 flex-col md:flex-row">
+        <div className="w-full bg-[#61677A] flex items-center md:fixed justify-center gap-5 p-3 flex-col md:flex-row rounded-b-3xl">
             <div className="">
                 <img src={image} alt="" className='h-20'/>
             </div>
